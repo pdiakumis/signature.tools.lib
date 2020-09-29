@@ -8,12 +8,10 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 biocViews: 
+Remotes:
+    linxihui/NNLM
 Imports: 
     VariantAnnotation,
-    BSgenome.Hsapiens.UCSC.hg38,
-    BSgenome.Hsapiens.1000genomes.hs37d5,
-    BSgenome.Mmusculus.UCSC.mm10,
-    BSgenome.Cfamiliaris.UCSC.canFam3,
     SummarizedExperiment,
     BiocGenerics,
     GenomeInfoDb,
@@ -36,4 +34,9 @@ Imports:
     GenomicRanges,
     IRanges,
     BSgenome
-RoxygenNote: 6.1.1
+Suggests:
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome.Hsapiens.1000genomes.hs37d5,
+    BSgenome.Mmusculus.UCSC.mm10,
+    BSgenome.Cfamiliaris.UCSC.canFam3,
+RoxygenNote: 7.1.0

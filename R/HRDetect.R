@@ -63,6 +63,7 @@
 #' @references Nik-Zainal, S., Davies, H., Staaf, J., Ramakrishna, M., Glodzik, D., Zou, X., ... Stratton, M. R. (2016). Landscape of somatic mutations in 560 breast cancer whole-genome sequences. Nature, 534(7605), 1–20. https://doi.org/10.1038/nature17676
 #' @references Huang, X., Wojtowicz, D., & Przytycka, T. M. (2017). Detecting Presence Of Mutational Signatures In Cancer With Confidence. bioRxiv, (October). https://doi.org/10.1101/132597
 #' 
+#' @export
 HRDetect_pipeline <- function(data_matrix=NULL,
                               genome.v="hg19",
                               SNV_vcf_files=NULL,
